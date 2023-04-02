@@ -47,7 +47,7 @@ fetch("http://localhost:3000/films")
 
           // Update the movie data in the backend
           const newTicketsSold = movie.tickets_sold + 1;
-          fetch(http://localhost:3000/films/${movie.id}, {
+          fetch(`http://localhost:3000/films/${movie.id}`, {
             method: 'PATCH',
             headers: {
               'Content-Type': 'application/json'
